@@ -1,0 +1,34 @@
+<!--div class="btn-group" dropdown>
+
+
+  <span dropdown container="body" placement="bottom right">
+    <a id="button-basic" dropdownToggle class="btn btn-ellipse-vertical"
+       aria-controls="dropdown-basic">
+      &#8942;
+    </a>
+
+    <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+        role="menu" aria-labelledby="button-basic">
+      <li role="menuitem"><a class="dropdown-item" (click)="menuitemclicked(this)" data-action="RecordNotification" href="#">Record Notification Settings</a></li>
+      <li role="menuitem"><a class="dropdown-item" data-action="RecordRelation" href="#">Record Relationship</a></li>
+      <li role="menuitem"><a class="dropdown-item" href="#">Archive</a></li>
+
+      <li role="menuitem"><a class="dropdown-item" href="#">Edit</a></li>
+      <li role="menuitem"><a class="dropdown-item" href="#">Unarchive</a></li>
+    </ul>
+  </span>
+</div>-->
+<ul class="nav nav-pills">
+  
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle btn btn-ellipse-vertical" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"></a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Record Notification Settings</a>
+      <a class="dropdown-item" href="#">Record Relationship</a>
+      <a class="dropdown-item" href="#">Archive</a>
+      <a class="dropdown-item" href="#">Edit</a>
+      <a class="dropdown-item" href="#">Unarchive</a>
+    </div>
+  </li>
+  
+</ul>
